@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from random import randrange
 
-
 data_matrix = datasets.fetch_openml(name="mnist_784", version=1)
 X, y = data_matrix.data, data_matrix.target
 
